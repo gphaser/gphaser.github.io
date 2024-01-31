@@ -1799,8 +1799,11 @@ input, select, textarea {
 			#nav a:before {
 				font-size: 0.8em;
 			}
-
-			#nav a:after {
+			
+/* 			This is the section that makes the arrow track the menu labels
+			Uncomment to put that feature back on */
+			
+/* 			#nav a:after {
 				content: '';
 				display: block;
 				position: absolute;
@@ -1814,7 +1817,7 @@ input, select, textarea {
 				-webkit-transition: border-bottom-width .25s ease-in-out;
 				-ms-transition: border-bottom-width .25s ease-in-out;
 				transition: border-bottom-width .25s ease-in-out;
-			}
+			} */
 
 			#nav a span {
 				display: block;
