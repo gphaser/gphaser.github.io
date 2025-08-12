@@ -2192,3 +2192,39 @@ input, select, textarea {
 			}
 
 		}
+		
+.alumni-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Keep existing image sizing */
+.alumni-card .image {
+    width: 100%;
+    height: auto;
+}
+
+/* Name styling */
+.alumni-name {
+    font-weight: 400;
+    margin: 0.4em 0 0.2em;
+    color: #363636;
+}
+
+/* Details styling */
+.alumni-details {
+    font-size: 0.8em;
+    color: #999;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+/* Maintain layout and spacing on smaller screens */
+@media screen and (max-width: 736px) {
+    .alumni-details {
+        font-size: 0.85em; /* slightly larger for readability */
+    }
+}
+
