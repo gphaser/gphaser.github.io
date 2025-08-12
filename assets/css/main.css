@@ -2228,3 +2228,17 @@ input, select, textarea {
     }
 }
 
+.site-logo {
+    display: block;
+    margin: 0.5em 0 1em 0; /* small gap above and below */
+    max-width: 300px;      /* bigger size */
+    height: auto;          /* keep proportions */
+}
+
+
+@media screen and (max-width: 736px) {
+    .site-logo {
+        max-width: 150px;
+    }
+}
+
